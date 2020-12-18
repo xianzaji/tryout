@@ -1,11 +1,8 @@
-s = "If Comrade Napoleon says it, it must be right."
-a = [100, 200, 300]
+def f1():
+	print('this is f1 in m1')
 
-def foo(arg):
-    print('arg = {0}'.format(arg))
+print(__name__) 
 
-class Foo:
-    pass
+if __name__=='__main__':
+	f1()
 
-# foo(['a','b'])
-print(__name__)

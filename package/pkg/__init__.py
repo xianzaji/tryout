@@ -1,2 +1,1 @@
-from .m3 import f2,f3
-from .subpkg import f4
+from .m2 import f2,f3
